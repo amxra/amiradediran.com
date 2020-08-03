@@ -41,7 +41,7 @@ ul li{
 /* Others */
 
 #fullpage{
-    border: 5px solid black;
+    /* border: 5px solid black; */
     height: 100vh;
     max-height: 100vh;
     display: flex;
@@ -54,12 +54,12 @@ ul li{
 
 .section-one{
     width: 50%;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 .section-two{
     width: 50%;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 .landing-image img{
@@ -139,7 +139,7 @@ ul li{
     .socials{
         width: 70%;
         margin-top: 1.5rem;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 }
 
@@ -191,5 +191,77 @@ ul li{
 
 
 /* Skills */
+
+.toolbox{
+    /* border: 2px solid black; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools{
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 8px 2px;
+    padding:  3rem;
+}
+
+.tools img, .tools svg{
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid red; */
+}
+
+.skill{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Page 2 */
+
+
+.projects{
+    /* border: 2px solid black; */
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 4px;
+    /* padding:  2rem 0; */
+}
+
+.projects :nth-child(1){
+    background-color: #ece6ff;
+}
+
+.projects :nth-child(2){
+    background-color: #faedB8;
+}
+
+.projects :nth-child(3){
+    background-color: #e9e9e9;
+}
+
+.projects :nth-child(4){
+    background-color: #d7e8d7;
+}
+
+.projects :nth-child(5){
+    background-color: #f1d1d1;
+}
+
+.projects :nth-child(6){
+    background-color: #b7daed;
+}
+
+
 
 
